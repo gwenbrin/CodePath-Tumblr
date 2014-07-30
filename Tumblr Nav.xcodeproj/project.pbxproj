@@ -19,6 +19,20 @@
 		525E2565196D42DC00F23812 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525E254D196D42DC00F23812 /* UIKit.framework */; };
 		525E256D196D42DC00F23812 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 525E256B196D42DC00F23812 /* InfoPlist.strings */; };
 		525E256F196D42DC00F23812 /* Tumblr_NavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 525E256E196D42DC00F23812 /* Tumblr_NavTests.m */; };
+		525E257B196D42FE00F23812 /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525E2579196D42FE00F23812 /* TabbarViewController.m */; };
+		525E257C196D42FE00F23812 /* TabbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525E257A196D42FE00F23812 /* TabbarViewController.xib */; };
+		525E2580196D474F00F23812 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525E257E196D474F00F23812 /* HomeViewController.m */; };
+		525E2581196D474F00F23812 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525E257F196D474F00F23812 /* HomeViewController.xib */; };
+		525E2585196D476100F23812 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525E2583196D476100F23812 /* ProfileViewController.m */; };
+		525E2586196D476100F23812 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525E2584196D476100F23812 /* ProfileViewController.xib */; };
+		525E258A196D476C00F23812 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525E2588196D476C00F23812 /* ActivityViewController.m */; };
+		525E258B196D476C00F23812 /* ActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525E2589196D476C00F23812 /* ActivityViewController.xib */; };
+		525E258F196D477600F23812 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525E258D196D477600F23812 /* ComposeViewController.m */; };
+		525E2590196D477600F23812 /* ComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525E258E196D477600F23812 /* ComposeViewController.xib */; };
+		525E2594196D478200F23812 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525E2592196D478200F23812 /* SearchViewController.m */; };
+		525E2595196D478200F23812 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525E2593196D478200F23812 /* SearchViewController.xib */; };
+		525E259A196D5C0700F23812 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525E2598196D5C0700F23812 /* LoginViewController.m */; };
+		525E259B196D5C0700F23812 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525E2599196D5C0700F23812 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +62,27 @@
 		525E256A196D42DC00F23812 /* Tumblr NavTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tumblr NavTests-Info.plist"; sourceTree = "<group>"; };
 		525E256C196D42DC00F23812 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		525E256E196D42DC00F23812 /* Tumblr_NavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tumblr_NavTests.m; sourceTree = "<group>"; };
+		525E2578196D42FE00F23812 /* TabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
+		525E2579196D42FE00F23812 /* TabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
+		525E257A196D42FE00F23812 /* TabbarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabbarViewController.xib; sourceTree = "<group>"; };
+		525E257D196D474F00F23812 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		525E257E196D474F00F23812 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		525E257F196D474F00F23812 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		525E2582196D476100F23812 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		525E2583196D476100F23812 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		525E2584196D476100F23812 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		525E2587196D476C00F23812 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		525E2588196D476C00F23812 /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		525E2589196D476C00F23812 /* ActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityViewController.xib; sourceTree = "<group>"; };
+		525E258C196D477600F23812 /* ComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		525E258D196D477600F23812 /* ComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		525E258E196D477600F23812 /* ComposeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposeViewController.xib; sourceTree = "<group>"; };
+		525E2591196D478200F23812 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		525E2592196D478200F23812 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		525E2593196D478200F23812 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		525E2597196D5C0700F23812 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		525E2598196D5C0700F23812 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		525E2599196D5C0700F23812 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +142,7 @@
 		525E254F196D42DC00F23812 /* Tumblr Nav */ = {
 			isa = PBXGroup;
 			children = (
+				525E2596196D478B00F23812 /* View Controllers */,
 				525E2558196D42DC00F23812 /* AppDelegate.h */,
 				525E2559196D42DC00F23812 /* AppDelegate.m */,
 				525E255B196D42DC00F23812 /* Images.xcassets */,
@@ -142,6 +178,34 @@
 				525E256B196D42DC00F23812 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		525E2596196D478B00F23812 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				525E2578196D42FE00F23812 /* TabbarViewController.h */,
+				525E2579196D42FE00F23812 /* TabbarViewController.m */,
+				525E257A196D42FE00F23812 /* TabbarViewController.xib */,
+				525E2591196D478200F23812 /* SearchViewController.h */,
+				525E2592196D478200F23812 /* SearchViewController.m */,
+				525E2593196D478200F23812 /* SearchViewController.xib */,
+				525E257D196D474F00F23812 /* HomeViewController.h */,
+				525E257E196D474F00F23812 /* HomeViewController.m */,
+				525E257F196D474F00F23812 /* HomeViewController.xib */,
+				525E2582196D476100F23812 /* ProfileViewController.h */,
+				525E2583196D476100F23812 /* ProfileViewController.m */,
+				525E2584196D476100F23812 /* ProfileViewController.xib */,
+				525E2587196D476C00F23812 /* ActivityViewController.h */,
+				525E2588196D476C00F23812 /* ActivityViewController.m */,
+				525E2589196D476C00F23812 /* ActivityViewController.xib */,
+				525E258C196D477600F23812 /* ComposeViewController.h */,
+				525E258D196D477600F23812 /* ComposeViewController.m */,
+				525E2597196D5C0700F23812 /* LoginViewController.h */,
+				525E2598196D5C0700F23812 /* LoginViewController.m */,
+				525E2599196D5C0700F23812 /* LoginViewController.xib */,
+				525E258E196D477600F23812 /* ComposeViewController.xib */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +284,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				525E2554196D42DC00F23812 /* InfoPlist.strings in Resources */,
+				525E257C196D42FE00F23812 /* TabbarViewController.xib in Resources */,
 				525E255C196D42DC00F23812 /* Images.xcassets in Resources */,
+				525E2586196D476100F23812 /* ProfileViewController.xib in Resources */,
+				525E2590196D477600F23812 /* ComposeViewController.xib in Resources */,
+				525E2581196D474F00F23812 /* HomeViewController.xib in Resources */,
+				525E2595196D478200F23812 /* SearchViewController.xib in Resources */,
+				525E258B196D476C00F23812 /* ActivityViewController.xib in Resources */,
+				525E259B196D5C0700F23812 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +312,13 @@
 			files = (
 				525E255A196D42DC00F23812 /* AppDelegate.m in Sources */,
 				525E2556196D42DC00F23812 /* main.m in Sources */,
+				525E257B196D42FE00F23812 /* TabbarViewController.m in Sources */,
+				525E258A196D476C00F23812 /* ActivityViewController.m in Sources */,
+				525E258F196D477600F23812 /* ComposeViewController.m in Sources */,
+				525E259A196D5C0700F23812 /* LoginViewController.m in Sources */,
+				525E2580196D474F00F23812 /* HomeViewController.m in Sources */,
+				525E2594196D478200F23812 /* SearchViewController.m in Sources */,
+				525E2585196D476100F23812 /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

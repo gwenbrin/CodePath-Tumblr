@@ -10,6 +10,8 @@
 
 @interface ComposeViewController ()
 
+- (IBAction)onNevermindButton:(id)sender;
+
 @end
 
 @implementation ComposeViewController
@@ -35,4 +37,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)onNevermindButton:(id)sender {
+    
+    [self dismissViewControllerAnimated:NO completion:nil];
+    
+}
 @end

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TrendingViewController : UIViewController
+@interface ActivityViewController : UIViewController
 
 @end

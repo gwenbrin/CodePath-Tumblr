@@ -6,19 +6,25 @@
 //  Copyright (c) 2014 Gwen Brinsmead. All rights reserved.
 //
 
-#import "TrendingViewController.h"
+#import "ActivityViewController.h"
+#import "LoginViewController.h"
 
-@interface TrendingViewController ()
+@interface ActivityViewController ()
+
+@property (nonatomic, strong) LoginViewController *loginViewController;
+- (IBAction)onLogin:(id)sender;
 
 @end
 
-@implementation TrendingViewController
+@implementation ActivityViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        
+        self.loginViewController = [[LoginViewController alloc] init];
     }
     return self;
 }
@@ -35,4 +41,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)onLogin:(id)sender {
+    
+    NSLog(@"login login login");
+    
+    [self presentViewController:self.loginViewController animated:NO completion:nil];
+    
+}
 @end
